@@ -44,7 +44,7 @@ body{
 
 
 .clock{
-    background-color: blue;
+    background-color: rgb(122, 122, 179);
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -60,4 +60,47 @@ body{
     height:100%;
     text-align: center;
 }
+.number1{
+    transform:rotate(30deg);
+}
+.number2{
+    transform:rotate(60deg);
+}
+.number3{
+    transform:rotate(90deg);
+}
+.number4{
+    transform:rotate(120deg);
+}
+.number5{
+    transform:rotate(150deg);
+}
+.number6{
+    transform:rotate(180deg);
+}
+.number7{
+    transform:rotate(210deg);
+}
+.number8{
+    transform:rotate(240deg);
+}
+.number9{
+    transform:rotate(270deg);
+}
+.number10{
+    transform:rotate(300deg);
+}
+.number11{
+    transform:rotate(330deg);
+}
+.number12{
+    transform:rotate(360deg);
+}
 
+.hand{
+    position:absolute;
+    background-color: white;
+    width:10px;
+    height: 60%;
+   
+}
