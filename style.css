@@ -61,6 +61,7 @@ body{
     height:100%;
     text-align: center;
     transform:rotate(var(--rotate));
+    padding-top:.4rem;
 }
 
 .number1{--rotate:30deg;}
@@ -88,4 +89,18 @@ body{
     height: 40%;
     width:2px;
     background-color:red;
+    z-index:4;
 }
+.menute{
+    height: 30%;
+    width:6px;
+    background-color: green;  
+    z-index:3;
+}
+.hour{
+    height: 25%;
+    width:10px;
+    background-color: blue;  
+    z-index:2;
+}
+
